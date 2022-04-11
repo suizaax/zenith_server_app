@@ -1,6 +1,6 @@
 const crypto = require('crypto')
 const { connect } = require('getstream')
-const bcrypt = require("bcrypt")
+const bcrypt = require("bcryptjs")
 const StreamChat = require('stream-chat').StreamChat
 
 

@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 require('dotenv').config()
 
-const accountSid = process.env.TWILIO.ACCOUNT.SID
+const accountSid = process.env.TWILIO_ACCOUNT_SID
 const authToken = process.env.TWILIO_AUTH_TOKEN
 const messagingSid = process.env.TWILIO_MESSAGING_SID
 const twilioClient = require("twilio")(accountSid, authToken)
